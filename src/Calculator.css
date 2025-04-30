@@ -1,0 +1,69 @@
+.calculator {
+          width: 340px;
+          background: rgba(30, 30, 60, 0.6);
+          border-radius: 20px;
+          padding: 20px;
+          backdrop-filter: blur(12px);
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+          margin: 40px auto;
+          border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.display {
+          height: 70px;
+          background: #1a1a2e;
+          color: #7df9ff;
+          font-size: 2.5rem;
+          font-family: 'Courier New', Courier, monospace;
+          border-radius: 12px;
+          padding: 10px 20px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          box-shadow: inset 0 0 12px rgba(125, 249, 255, 0.3);
+          margin-bottom: 20px;
+          overflow-x: auto;
+}
+
+.buttons {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 12px;
+}
+
+.btn {
+          background: linear-gradient(145deg, #3a3a6a, #2b2b50);
+          border: none;
+          color: #ffffff;
+          font-size: 1.4rem;
+          border-radius: 12px;
+          padding: 18px;
+          cursor: pointer;
+          transition: all 0.2s ease-in-out;
+          backdrop-filter: blur(4px);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+          background: linear-gradient(145deg, #5050a5, #3f3f8a);
+          transform: scale(1.05);
+}
+
+.btn:active {
+          transform: scale(0.97);
+          background: linear-gradient(145deg, #6262b8, #4a4a9c);
+}
+
+.operator {
+          background: linear-gradient(145deg, #8e2de2, #4a00e0);
+          color: #fff;
+          font-weight: bold;
+}
+
+.operator:hover {
+          background: linear-gradient(145deg, #a44ce7, #5d1be4);
+}
+
+.zero {
+          grid-column: span 2;
+}
