@@ -38,7 +38,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://caov10.github.io/mi-calculadora/",
+  "homepage": "https://caov10.github.io/Basic-Calculator/",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
