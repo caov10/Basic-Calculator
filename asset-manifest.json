@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mi-calculadora/static/css/main.80f824cc.css",
-    "main.js": "/mi-calculadora/static/js/main.7e126791.js",
-    "index.html": "/mi-calculadora/index.html",
-    "main.80f824cc.css.map": "/mi-calculadora/static/css/main.80f824cc.css.map",
-    "main.7e126791.js.map": "/mi-calculadora/static/js/main.7e126791.js.map"
+    "main.css": "/Basic-Calculator/static/css/main.80f824cc.css",
+    "main.js": "/Basic-Calculator/static/js/main.7e126791.js",
+    "index.html": "/Basic-Calculator/index.html",
+    "main.80f824cc.css.map": "/Basic-Calculator/static/css/main.80f824cc.css.map",
+    "main.7e126791.js.map": "/Basic-Calculator/static/js/main.7e126791.js.map"
   },
   "entrypoints": [
     "static/css/main.80f824cc.css",
